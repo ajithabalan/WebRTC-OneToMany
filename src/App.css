@@ -1,0 +1,92 @@
+/* App.css */
+
+html,
+body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.app-container {
+  width: auto;
+  height: auto;
+  max-width: 1000px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h3 {
+  margin-bottom: 0.5rem;
+  color: #34495e;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  padding: 0.5rem;
+  font-family: monospace;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+video {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+  background: black;
+  margin-top: 0.5rem;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.video-grid p {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 0.4rem;
+}
